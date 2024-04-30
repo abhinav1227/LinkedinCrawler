@@ -9,9 +9,11 @@ In this task, given a name, we are scraping the first 10 profiles that we get wi
      - We started by grabbing a website using Selenium (https://google.com).
      - We crawled to LinkedIn, logged in, and searched the Input name.
      - Using XPATH and Selenium scraped the most important data of the user.
- 
-In the end, I wasn't able to provide the CSV file because of the volume of calls, so LinkedIn initiated a verification check. 
+
+Note:
+- In the end, I wasn't able to provide the CSV file because of the volume of calls, so LinkedIn initiated a verification check. 
 I didn't implement the bypass system but the above code works just fine.
+- I can provide the CSV file at a later date.
 
 Thank You for going through the above code!
  
