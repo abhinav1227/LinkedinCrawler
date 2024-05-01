@@ -5,11 +5,12 @@ def main():
     LastName = input('Enter your last name:')
 
     # don't share the below details with anyone
-    username = 'XXXXXXXXXXX' # your linkedin username
-    password = 'XXXXXXXXXXX' # your linkedin password
+    username = 'abhiiyadav1227@gmail.com' # your linkedin username
+    password = 'Abhin@vy27' # your linkedin password
 
-    output = LinkedinCrawler(FirstName=FirstName, LastName=LastName, username=username, password=password)
-
+    crawler = LinkedinCrawler(FirstName=FirstName, LastName=LastName, username=username, password=password)
+    output = crawler.crawler()
+    
     #saving the dataframe to csv
     output.to_csv('Top10User.csv')
     
