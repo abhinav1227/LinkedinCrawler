@@ -219,7 +219,7 @@ class LinkedinCrawler():
                     
             #print((title, company, duration))
 
-            self.df.iloc[i] = [name, name.strip().split(' ')[0], name.strip().split(' ')[1], profile, location, connections, about, (edu_name, education, date), (title, company, duration)]
+            self.df.loc[i] = [name, name.strip().split(' ')[0], name.strip().split(' ')[1], profile, location, connections, about, (edu_name, education, date), (title, company, duration)]
 
             time.sleep(10)   
 
