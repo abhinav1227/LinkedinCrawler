@@ -9,6 +9,10 @@ def main():
     password = 'XXXXXXXXXXX' # your linkedin password
 
     output = LinkedinCrawler(FirstName=FirstName, LastName=LastName, username=username, password=password)
+
+    #saving the dataframe to csv
+    output.to_csv('Top10User.csv')
+    
     print(output)
 
 if __name__ == '__main__':
