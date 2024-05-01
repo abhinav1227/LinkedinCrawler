@@ -5,8 +5,8 @@ def main():
     LastName = input('Enter your last name:')
 
     # don't share the below details with anyone
-    username = 'abhiiyadav1227@gmail.com' # your linkedin username
-    password = 'Abhin@vy27' # your linkedin password
+    username = 'XXXXXXXXXXXXXX' # your linkedin username
+    password = 'XXXXXXXXXXXXXX' # your linkedin password
 
     crawler = LinkedinCrawler(FirstName=FirstName, LastName=LastName, username=username, password=password)
     output = crawler.crawler()
